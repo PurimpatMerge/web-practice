@@ -19,7 +19,7 @@ spec:
       imagePullSecrets:
         - name: practice-web-registrykey
       containers:
-        - name: ppractice-web-dev
+        - name: practice-web-dev
           image: cyberrich/web-practice-dev:dev
           imagePullPolicy: Always
           #          livenessProbe:
