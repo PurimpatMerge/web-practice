@@ -3,18 +3,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: practice-web-dev
-  namespace: practice-web
+  namespace: dunk-practice-dev
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: practice-web
+      app: practice-web-dev
   strategy:
     type: RollingUpdate
   template:
     metadata:
       labels:
-        app: practice-web
+        app: practice-web-dev
     spec:
       imagePullSecrets:
         - name: practice-web-registrykey

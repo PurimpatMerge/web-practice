@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: ingress-practice-web-dev
-  namespace: practice-web
+  namespace: dunk-practice-dev
 spec:
   rules:
     - host: dunk-web-dev.cbgame88.com

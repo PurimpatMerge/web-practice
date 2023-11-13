@@ -36,6 +36,6 @@ jobs:
         run: |
           cd manifest/dev
           kubectl --kubeconfig=../../kube_config.yaml apply -f dev-deployment.yaml
-          kubectl --kubeconfig=../../kube_config.yaml rollout restart -f dev-deployment.yaml -n cbg-dev
+          kubectl --kubeconfig=../../kube_config.yaml rollout restart -f dev-deployment.yaml -n dunk-practice-dev
           kubectl --kubeconfig=../../kube_config.yaml apply -f dev-service.yaml
           kubectl --kubeconfig=../../kube_config.yaml apply -f dev-ingress.yaml
