@@ -1,18 +1,18 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ingress-cbg-website-dev
-  namespace: cbg-dev
+  name: ingress-practice-web-dev
+  namespace: practice-web
 spec:
   rules:
-    - host: dev-web.cbgame88.com
+    - host: dunk-web-dev.cbgame88.com
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: cbg-website-dev
+                name: practice-web-dev
                 port:
                   number: 3000
 

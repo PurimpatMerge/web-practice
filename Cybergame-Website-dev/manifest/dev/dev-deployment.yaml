@@ -2,25 +2,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cbg-website-dev
-  namespace: cbg-dev
+  name: practice-web-dev
+  namespace: practice-web
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: cbg-website-dev
+      app: practice-web
   strategy:
     type: RollingUpdate
   template:
     metadata:
       labels:
-        app: cbg-website-dev
+        app: practice-web
     spec:
       imagePullSecrets:
-        - name: cbg-registrykey
+        - name: practice-web-registrykey
       containers:
-        - name: cbg-website-dev
-          image: cyberrich/cybergame-website:dev
+        - name: ppractice-web-dev
+          image: cyberrich/web-practice-dev:dev
           imagePullPolicy: Always
           #          livenessProbe:
           #            httpGet:

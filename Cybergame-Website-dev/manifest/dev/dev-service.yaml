@@ -2,8 +2,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: cbg-website-dev
-  namespace: cbg-dev
+  name: practice-web-dev
+  namespace: practice-web
 spec:
   type: NodePort
   ports:
@@ -11,4 +11,4 @@ spec:
       port: 80
       targetPort: 3000
   selector:
-    app: cbg-website-dev
+    app: practice-web-dev

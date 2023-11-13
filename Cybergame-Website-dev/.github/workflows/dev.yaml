@@ -2,7 +2,7 @@ name: Build dev
 
 on:
   push:
-    branches: [dev]
+    branches: [ci]
 
 jobs:
   build:
@@ -14,10 +14,11 @@ jobs:
       - run: |
           git checkout dev
           sudo chmod +x vault.sh
+          /cybergame-dev/data/frontend/.env?version=9
           ./vault.sh ${{ secrets.VAULT_URL }}/cybergame-dev/data/frontend/.env env ${{ secrets.VAULT_TOKEN }}
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
-          docker build -t cyberrich/cybergame-website:dev .
-          docker push cyberrich/cybergame-website:dev
+          docker build -t cyberrich/web-practice-dev:dev .
+          docker push cyberrich/web-practice-dev:dev
 
   deploy:
     needs: [ build ]
@@ -37,6 +38,6 @@ jobs:
         run: |
           cd manifest/dev
           kubectl --kubeconfig=../../kube_config.yaml apply -f dev-deployment.yaml
-          kubectl --kubeconfig=../../kube_config.yaml rollout restart -f dev-deployment.yaml -n cbg-dev
+          kubectl --kubeconfig=../../kube_config.yaml rollout restart -f dev-deployment.yaml -n practice-web
           kubectl --kubeconfig=../../kube_config.yaml apply -f dev-service.yaml
           kubectl --kubeconfig=../../kube_config.yaml apply -f dev-ingress.yaml
