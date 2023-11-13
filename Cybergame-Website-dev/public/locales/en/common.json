@@ -1,0 +1,16 @@
+{
+  "menu": {
+    "home": "Home",
+    "news": "News",
+    "ourTeam": "Our Team",
+    "firstTeam": "First Team",
+    "youthTeam": "Youth Team",
+    "ourTeamSub": "Our Team",
+    "ourClub": "Our Club",
+    "competition": "competition",
+    "competitionProgram": "Competition Program",
+    "result": "Result",
+    "scoreTable": "Score Table"
+  },
+  "login": "Login"
+}

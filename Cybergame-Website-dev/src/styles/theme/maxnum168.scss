@@ -1,0 +1,126 @@
+html[data-theme='maxnum168'] {
+  // Theme Color
+  --main-color: #005e44;
+  --primary-color: #33638b;
+  --secondary-color: #1d222e;
+  --text-color: #7f869a;
+  --btn-linear: linear-gradient(90deg, #ae8625 0%, #f7ef84 38.54%, #d2ac47 62.5%, #edc967 100%);
+
+  // Global
+  --text-default: #000;
+  --text-light: var(--main-color);
+  --text-failed: #da4545;
+  --text-success: '';
+
+  // Layouts Background
+  --body-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/0054b20b-70a7-41c4-6c8d-59a19c937700/public');
+  --page-title: #fff;
+  --header-bg: '';
+  --footer-bg: #001c18;
+  --menu-text: rgba(255, 255, 255, 0.6);
+  --menu-text-active: #fff;
+  --menu-line-active: #fff;
+
+  // Form Input
+  --form-input-bg: rgba(255, 255, 255, 0.9);
+  --form-input-border: '';
+  --form-input-shadow: '';
+  --input-label: #000;
+  --input-text: #000;
+  --input-bg: rgba(255, 255, 255, 0.9);
+  --input-border: #cbd5e1;
+
+  // Table
+  --table-th: rgba(255, 255, 255, 0.9);
+  --table-td: rgba(255, 255, 255, 0.9);
+  --table-hover: #fff;
+  --table-text: #000;
+  --table-line: var(--main-color);
+  --table-border: transparent;
+
+  // Tab
+  --tab-bg: var(--main-color);
+  --tab-text: rgba(255, 255, 255, 0.6);
+  --tab-text-active: #fff;
+  --tab-line-active: #fff;
+  --tab-text-hover: #fff;
+
+  // Modal
+  --modal-bg: #fff;
+  --modal-otp-bg: #fff;
+
+  // Button
+  --btn-bg: var(--main-color);
+  --btn-text: #fff;
+  --btn-border: var(--main-color);
+  --btn-border-active: #fff;
+
+  // Card Menu
+  --card-menu-border: var(--main-color);
+  --card-menu-text: #fff;
+  --card-menu-svg: #fff;
+  --card-menu-svg-bg: '';
+  --card-menu-svg-border: 2px solid #fff;
+  --card-menu-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/ce07d93c-c5a0-4487-61ff-77824ea7f000/public');
+
+  // Card Bank
+  --card-bank-bg: rgba(255, 255, 255, 0.9);
+  --card-bank-border: '';
+  --bank-copy-btn-bg: var(--main-color);
+  --bank-copy-btn-text: #fff;
+  --bank-copy-btn-border: '';
+
+  // Card Detail
+  --card-detail-bg: rgba(255, 255, 255, 0.9);
+  --card-detail-border: 1px solid var(--main-color);
+  --card-detail-text: #000;
+
+  // Register Page, Progress
+  --progress-line: #fff;
+  --progress-border: var(--main-color);
+  --progress-bg: #fff;
+  --progress-text: #000;
+  --progress-bg-active: var(--main-color);
+  --progress-text-active: #fff;
+  --progress-border-active: var(--main-color);
+
+  // Index Login Page, Button Transaction
+  --btn-ts-bg: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  --btn-ts-text: #fff;
+  --btn-ts-border: 2px solid var(--main-color);
+  --btn-ts-svg: var(--secondary-color);
+  --btn-ts-svg-bg: rgba(255, 255, 255, 0.9);
+
+  // Affiliate & Alliance Page, Link Recom
+  --recom-bg: rgba(255, 255, 255, 0.9);
+  --recom-label: #000;
+  --recom-text: #000;
+  --recom-border: '';
+
+  // Affiliate & Alliance Page, Card Report
+  --card-report-bg: rgba(255, 255, 255, 0.9);
+  --card-report-text: #000;
+  --card-report-border: '';
+  --card-report-number: var(--main-color);
+
+  // Profile Info Page
+  --profile-info-label: var(--main-color);
+  --profile-info-text: #000;
+  --profile-info-bg: rgba(255, 255, 255, 0.9);
+
+  // Contact Page
+  --contact-bg: rgba(255, 255, 255, 0.9);
+  --contact-text: #000;
+  --contact-border: '';
+
+  // User Info
+  --profile-credit-svg: var(--main-color);
+  --profile-credit-text: #fff;
+  --profile-credit-btn-bg: rgba(255, 255, 255, 0.9);
+  --profile-credit-btn-text: #000;
+  --profile-credit-btn-border: var(--main-color);
+
+  // Floating Line
+  --line-width-desktop: 60px;
+  --line-width-mobile: 50px;
+}

@@ -1,0 +1,16 @@
+{
+  "menu": {
+    "home": "หน้าแรก",
+    "news": "ข่าว",
+    "ourTeam": "ทีมของเรา",
+    "firstTeam": "ทีมชุดใหญ่",
+    "youthTeam": "ทีมเยาวชน",
+    "ourTeamSub": "ทีมงานของเรา",
+    "ourClub": "สโมสรของเรา",
+    "competition": "การแข่งขัน",
+    "competitionProgram": "โปรแกรมการแข่งขัน",
+    "result": "ผลการแข่งขัน",
+    "scoreTable": "ตารางคะแนน"
+  },
+  "login": "เข้าสู่ระบบ"
+}

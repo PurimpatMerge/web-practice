@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-cbg-website-dev
+  namespace: cbg-dev
+spec:
+  rules:
+    - host: dev-web.cbgame88.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: cbg-website-dev
+                port:
+                  number: 3000
+
+  ingressClassName: nginx

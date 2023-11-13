@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mk88max.com/
+
+# Sitemaps
+Sitemap: https://mk88max.com/sitemap.xml

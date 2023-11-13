@@ -1,0 +1,25 @@
+.ant-btn {
+  min-width: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--btn-bg);
+  border-color: var(--btn-border);
+  span,
+  svg {
+    color: var(--btn-text);
+  }
+  &:hover {
+    border-color: var(--btn-border-active) !important;
+  }
+  transition: 0.1s;
+  &:hover {
+    scale: 1.015;
+  }
+  @media (max-width: 767.98px) {
+    span {
+      font-size: 14px;
+    }
+  }
+}

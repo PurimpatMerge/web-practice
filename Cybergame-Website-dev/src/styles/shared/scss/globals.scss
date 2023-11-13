@@ -1,0 +1,93 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './input.scss';
+@import './button.scss';
+@import './table.scss';
+@import './tabs.scss';
+@import './modal.scss';
+@import './animation.scss';
+@import '../../theme/globals-shared.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p,
+h1,
+li {
+  color: var(--text-default);
+}
+
+html {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 100vw;
+}
+
+.ant-message-notice-content {
+  background: var(--modal-bg) !important;
+}
+
+.ant-message-custom-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > span {
+    &:last-child {
+      color: var(--text-default);
+    }
+  }
+}
+
+a {
+  color: var(--text-default);
+  &:hover {
+    color: var(--main-color);
+  }
+}
+
+.ant-spin-dot {
+  i {
+    background-color: var(--main-color) !important;
+  }
+}
+
+sup {
+  color: #da4545;
+}
+
+.text-success {
+  color: var(--text-success);
+  white-space: nowrap;
+}
+
+.text-failed {
+  color: var(--text-failed);
+  white-space: nowrap;
+}
+
+.text-light {
+  color: var(--text-light);
+}
+
+.back-btn {
+  border-radius: 5px;
+  @media (max-width: 480px) {
+    height: 26px;
+    span {
+      font-size: 14px;
+    }
+  }
+}

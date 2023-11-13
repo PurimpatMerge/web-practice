@@ -1,0 +1,31 @@
+export const imageList = {
+  logo: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/62c00626-bc5b-4df1-45de-ee112f305d00/public',
+  banner: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/b1a4b9eb-c5f7-4342-21b4-df988e59bb00/public',
+  bankList: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/c7110abd-6e50-467f-56d1-9fca60b74500/public',
+  register: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/e21aeb7b-25a8-4429-9a3c-f928af11dd00/public',
+  loginHeader: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/90453a8e-d704-4c76-5bf2-f8b794e1df00/public',
+  registerHeader: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/3bbc644e-4bf0-4aaf-98bd-fbbdb4c89800/public',
+  tab: {
+    bg: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/8126b743-0295-4c9d-53e3-6a8aae994800/public',
+    1: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/30e70108-9c13-4c17-2c71-a10d5ab86400/public',
+    2: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/ac78f1c4-2956-468d-1744-951efa41b600/public',
+    3: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/459e4161-9466-4f07-4a0b-8b6cdab92a00/public',
+    4: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/b085ad49-c98f-474b-6281-1fe0cbf54800/public',
+    5: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/477d952d-bf22-4f4e-7e52-4283c8794600/public',
+  },
+  cardTab: {
+    1: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/7ec26a79-9d11-44ad-eff5-7b6051bfc100/public',
+    2: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/33fd1c66-617d-4346-6463-370538e42400/public',
+    3: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/9dcd72a4-f17d-4ca3-e5cf-1c20ef104600/public',
+  },
+  CardPromotion1: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/482288b7-cc67-4a93-c82e-d6f3782bb000/public',
+  CardPromotion2: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/e3f8746e-863a-4231-32f9-65313348e300/public',
+  card: {
+    1: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/f321f1bb-69c7-4082-f41a-eaf0c1a1c400/public',
+    2: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/dd709727-ab64-480d-506c-b54147991900/public',
+    3: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/16662c4f-9ec0-4bce-7e42-ca8ec99a4f00/public',
+    4: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/63665a3f-7c49-4bfe-5ae3-32a4a9682400/public',
+    5: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/7f9b86e4-9753-43c5-c3e2-7d3c58b4ba00/public',
+    6: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/9d7e8f07-c684-419d-c5c5-5359a2295a00/public',
+  },
+}

@@ -1,0 +1,126 @@
+html[data-theme='autoslot168'] {
+  // Theme Color
+  --main-color: #fa6c9c;
+  --primary-color: #33638b;
+  --secondary-color: #1d222e;
+  --text-color: #7f869a;
+  --btn-linear: linear-gradient(180deg, #1a9e06 0%, #79e83c 305.88%);
+
+  // Global
+  --text-default: #000;
+  --text-light: var(--main-color);
+  --text-failed: #da4545;
+  --text-success: '';
+
+  // Layouts Background
+  --body-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/d92ca30a-2435-4670-a084-6a738f9ac100/public');
+  --page-title: var(--text-default);
+  --header-bg: transparent;
+  --footer-bg: #050f2a;
+  --menu-text: rgba(255, 255, 255, 0.6);
+  --menu-text-active: #fff;
+  --menu-line-active: #fff;
+
+  // Form Input
+  --form-input-bg: #fff;
+  --form-input-border: '';
+  --form-input-shadow: 0px 4px 4px 0px #00000040;
+  --input-label: #000;
+  --input-text: #000;
+  --input-bg: #fff;
+  --input-border: #e1e1e1;
+
+  // Table
+  --table-th: #fff;
+  --table-td: #fff;
+  --table-hover: #e1e1e1;
+  --table-text: #000;
+  --table-line: #e1e1e1;
+  --table-border: transparent;
+
+  // Tab
+  --tab-bg: var(--main-color);
+  --tab-text: rgba(255, 255, 255, 0.6);
+  --tab-text-active: #fff;
+  --tab-line-active: #fff;
+  --tab-text-hover: #fff;
+
+  // Modal
+  --modal-bg: #fff;
+  --modal-otp-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/d92ca30a-2435-4670-a084-6a738f9ac100/public');
+
+  // Button
+  --btn-bg: var(--btn-linear);
+  --btn-text: #fff;
+  --btn-border: #fff;
+  --btn-border-active: #fff;
+
+  // Card Menu
+  --card-menu-border: '';
+  --card-menu-text: #000;
+  --card-menu-svg: #fff;
+  --card-menu-svg-bg: var(--main-color);
+  --card-menu-svg-border: 2px solid #fff;
+  --card-menu-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/e03e2f05-c1b2-4858-8399-0f68c8a71800/public');
+
+  // Card Bank
+  --card-bank-bg: #fff;
+  --card-bank-border: '';
+  --bank-copy-btn-bg: var(--btn-linear);
+  --bank-copy-btn-text: #fff;
+  --bank-copy-btn-border: '';
+
+  // Card Detail
+  --card-detail-bg: #fff;
+  --card-detail-border: '';
+  --card-detail-text: #000;
+
+  // Register Page, Progress
+  --progress-line: var(--main-color);
+  --progress-border: var(--main-color);
+  --progress-bg: #fff;
+  --progress-text: var(--main-color);
+  --progress-bg-active: var(--main-color);
+  --progress-text-active: #fff;
+  --progress-border-active: var(--main-color);
+
+  // Index Login Page, Button Transaction
+  --btn-ts-bg: var(--btn-linear);
+  --btn-ts-text: #fff;
+  --btn-ts-border: 1px solid #fff;
+  --btn-ts-svg: #fff;
+  --btn-ts-svg-bg: '';
+
+  // Affiliate & Alliance Page, Link Recom
+  --recom-bg: #fff;
+  --recom-label: #000;
+  --recom-text: var(--main-color);
+  --recom-border: '';
+
+  // Affiliate & Alliance Page, Card Report
+  --card-report-bg: #fff;
+  --card-report-text: #000;
+  --card-report-border: '';
+  --card-report-number: var(--main-color);
+
+  // Profile Info Page
+  --profile-info-label: var(--main-color);
+  --profile-info-text: #000;
+  --profile-info-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/d92ca30a-2435-4670-a084-6a738f9ac100/public');
+
+  // Contact Page
+  --contact-bg: #fff;
+  --contact-text: #000;
+  --contact-border: '';
+
+  // User Info
+  --profile-credit-svg: #fff;
+  --profile-credit-text: #000;
+  --profile-credit-btn-bg: #fff;
+  --profile-credit-btn-text: #000;
+  --profile-credit-btn-border: var(--main-color);
+
+  // Floating Line
+  --line-width-desktop: 130px;
+  --line-width-mobile: 100px;
+}

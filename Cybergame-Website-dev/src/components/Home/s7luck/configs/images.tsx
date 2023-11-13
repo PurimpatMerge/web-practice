@@ -1,0 +1,30 @@
+export const imageList = {
+  header: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/eeb5529b-b4b6-4c60-5812-064a608ec100/public',
+  gold: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/5383631c-1b40-43d7-0800-5c520aef9900/public',
+  banner: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/31ba8056-4789-40ba-d092-b44f4e5dee00/public',
+  bankList: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/07c58d34-8f40-475e-a5db-b3168484ac00/public',
+  register: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/6339459b-cedf-4a76-e810-2288f5d3d300/public',
+  loginHeader: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/f7ea9951-ca28-4743-b116-35f8df4d7d00/public',
+  registerHeader: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/7a61e331-6c08-4888-b15f-f0206dc7f500/public',
+  tab: {
+    bg: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/4e7da381-e673-4ff0-c548-67dafe631e00/public',
+    1: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/55a43b2d-49c5-4e05-ffe0-d627dabe4400/public',
+    2: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/dec1a1f9-308b-4a8c-22a1-dd0914ba8100/public',
+    3: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/58ae4af0-e2ac-4811-7356-271626376400/public',
+    4: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/39a959b9-7969-42f6-07d8-2d22463ad600/public',
+    5: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/433ef796-316f-4deb-684c-0cce545eaa00/public',
+  },
+  cardTab: {
+    1: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/f7b3c43b-7aad-4def-d52c-29d7a093e900/public',
+    2: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/139d762a-fb7c-4f0e-362a-3a61553f0f00/public',
+    3: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/61b46acf-47ca-44b9-89ac-9563cfc8d300/public',
+  },
+  card: {
+    1: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/65cb76eb-8589-444e-55dd-a4dfa9556e00/public',
+    2: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/92a73977-a4a4-4ccb-d20f-46711d643b00/public',
+    3: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/ee06fef1-92f1-4d40-0850-ad1f92b37200/public',
+    4: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/4328d9af-41e5-4ad9-428c-4f546af85d00/public',
+    5: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/7a029a23-edab-4e60-9a47-9291b4e1e300/public',
+    6: 'https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/ef9fd6c9-b07f-48b7-a82a-c4e8b560bc00/public',
+  },
+}

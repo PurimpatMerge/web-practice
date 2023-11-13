@@ -1,0 +1,39 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cbg-website-dev
+  namespace: cbg-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cbg-website-dev
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: cbg-website-dev
+    spec:
+      imagePullSecrets:
+        - name: cbg-registrykey
+      containers:
+        - name: cbg-website-dev
+          image: cyberrich/cybergame-website:dev
+          imagePullPolicy: Always
+          #          livenessProbe:
+          #            httpGet:
+          #              path: /actuator/health/liveness
+          #              port: 3000
+          #            initialDelaySeconds: 15
+          #            periodSeconds: 4
+          #          readinessProbe:
+          #            httpGet:
+          #              path: /actuator/health/readiness
+          #              port: 3000
+          #            initialDelaySeconds: 15
+          #            periodSeconds: 4
+          ports:
+            - name: http
+              containerPort: 3000

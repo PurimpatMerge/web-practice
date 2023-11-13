@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-mk88max-website
+  namespace: cybergame-prod
+spec:
+  rules:
+    - host: www.mk88max.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: mk88max-website
+                port:
+                  number: 3000
+
+  ingressClassName: nginx

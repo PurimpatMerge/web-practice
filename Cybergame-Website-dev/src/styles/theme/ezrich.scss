@@ -1,0 +1,129 @@
+html[data-theme='ezrich'] {
+  // theme color
+  --main-color: #edc967;
+  --primary-color: #33638b;
+  --secondary-color: #1d222e;
+  --text-color: #7f869a;
+  --black-color: #000;
+  --white-color: #fff;
+  --btn-linear-danger: linear-gradient(257deg, #ED9CAA 6.42%, #D93451 16.64%, #A10E28 59.43%);
+  --btn-linear: linear-gradient(90deg, #ae8625 0%, #f7ef84 38.54%, #d2ac47 62.5%, #edc967 100%);
+  --background-linear: linear-gradient(180deg, #433E38 0%, #3D3834 50%, #24201D 81%, #0C0B09 100%);
+  --contact-text: #fff;
+  --card-menu-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/55db8216-51b9-4ef8-875c-b71318940a00/public');
+  --header-bg: '';
+  // global
+  --text-default: var(--white-color);
+  --text-light: var(--main-color);
+  --status-failed: #da4545;
+  --status-success: '';
+  --menu-text:#fff;
+  // table
+  --table-th: rgba(0, 0, 0, 0.75);
+  --table-td: rgba(0, 0, 0, 0.6);
+  --table-hover: rgba(0, 0, 0, 0.75);
+  --table-text: var(--white-color);
+  --table-line: var(--secondary-color);
+  --table-border: transparent;
+
+  // tab
+  --tab-bg: var(--btn-linear);
+  --tab-text: #000;
+  --tab-text-active: #33638b;
+  --tab-line-active: var(--black-color);
+  --tab-text-hover: var(--white-color);
+
+  // button
+  --btn-bg: linear-gradient(180deg, #000000 0%, #d8d8d8 305.88%);
+  --btn-text: var(--white-color);
+  --btn-border: var(--main-color);
+  --btn-border-active: var(--main-color);
+
+  // card menu
+  --card-menu-border: var(--main-color);
+  --card-menu-text: var(--btn-linear);
+  --card-menu-svg: var(--white-color);
+  //--card-menu-img: url('/images/card-menu.png');
+
+  // card bank
+  --card-bank-bg: rgba(0, 0, 0, 0.6);
+  --card-bank-border: '';
+  --bank-copy-btn-bg: var(--btn-linear);
+  --bank-copy-btn-text: var(--black-color);
+  --bank-copy-btn-border: '';
+
+  // card report
+  --card-report-bg: rgba(0, 0, 0, 0.6);
+  --card-report-border: '';
+  --card-report-number: linear-gradient(288.75deg, #ffe998 43.66%, #57370d 98.67%);
+
+  // card detail
+  --card-detail-bg: rgba(0, 0, 0, 0.6);
+
+  // form input
+  --form-input-bg: '';
+  --form-input-border: '';
+  --form-input-shadow: '';
+  --input-label: var(--white-color);
+  --input-text: var(--white-color);
+  --input-bg: rgba(0, 0, 0, 0.5);
+  --input-border: var(--main-color);
+
+  // register progress
+  --progress-line: var(--white-color);
+  --progress-border: var(--text-color);
+  --progress-bg: var(--secondary-color);
+  --progress-text: var(--text-color);
+  --progress-bg-active: var(--secondary-color);
+  --progress-text-active: var(--main-color);
+  --progress-border-active: var(--main-color);
+
+  // modal
+  --modal-bg: var(--secondary-color);
+  //--modal-otp-img: url('');
+
+  // profile info
+  --profile-info-label: var(--btn-linear);
+  --profile-info-text: var(--white-color);
+  --profile-info-bg: "";
+  //--profile-info-img: url('');
+
+  // button transaction
+  --btn-ts-bg: linear-gradient(180deg, #000000 0%, #d8d8d8 305.88%);
+  --btn-ts-border: 1px solid var(--main-color);
+  --btn-ts-svg: var(--secondary-color);
+  --btn-ts-svg-bg: linear-gradient(270.44deg, #f4da96 3.81%, #6c4d20 97.06%);
+
+  // body background img
+  --body-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/2af25ada-b584-4d85-17c7-c7e6d6293c00/public');
+  --body-img: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/2af25ada-b584-4d85-17c7-c7e6d6293c00/public');
+  --body-login: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/3a5df399-6be6-4150-c555-e2889e183200/public');
+  --recom-bg: rgba(0, 0, 0, 0.6);
+  --recom-label: "";
+  --recom-text: "";
+  --recom-border: "";
+
+  --profile-credit-svg: var(--main-color);
+  --profile-credit-text: var(--white-color);
+  --profile-credit-btn-bg: linear-gradient(180deg, #000000 0%, #d8d8d8 305.88%);
+  --profile-credit-btn-text: var(--white-color);
+  --profile-credit-btn-border: var(--main-color);
+  --line-width-desktop: 60px;
+  --line-width-mobile: 50px;
+  --text-failed: #da4545;
+  --text-success: '';
+  --footer-bg: var(--secondary-color);
+  --menu-text-active: var(--btn-linear);
+  --menu-line-active: #fff;
+  --modal-otp-bg: url('https://imagedelivery.net/xVhPJrN2Mvh3likGpmWIgg/970dbfb0-697f-4684-b7ef-6f733058fa00/public');
+  --card-menu-svg-bg: "";
+  --card-menu-svg-border: 1px solid var(--main-color);
+  --card-detail-border: '';
+  --card-detail-text: #fff;
+  --btn-ts-text: #fff;
+  --card-report-text: #fff;
+  --contact-bg: rgba(0, 0, 0, 0.6);
+  --contact-border: '';
+
+
+}

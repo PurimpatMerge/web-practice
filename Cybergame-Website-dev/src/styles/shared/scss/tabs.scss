@@ -1,0 +1,114 @@
+.ant-tabs {
+  margin-top: 20px;
+  background-color: transparent;
+  .ant-tabs-nav {
+    .ant-tabs-nav-wrap {
+      background: var(--tab-bg);
+      border-radius: 50px;
+      position: relative;
+      display: flex;
+      flex: auto;
+      align-self: stretch;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      .ant-tabs-nav-list {
+        margin: auto;
+        .ant-tabs-tab {
+          margin: 0 32px;
+          padding: 0;
+          .ant-tabs-tab-btn {
+            padding: 12px 0;
+            color: var(--tab-text);
+            font-weight: 700;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            min-width: 70px;
+            svg {
+              font-size: 36px;
+            }
+            &:hover {
+              color: var(--tab-text-hover);
+            }
+          }
+          &.ant-tabs-tab-active {
+            .ant-tabs-tab-btn {
+              color: var(--tab-text-active);
+            }
+          }
+        }
+      }
+    }
+    &::before {
+      display: none;
+    }
+  }
+  .ant-tabs-ink-bar {
+    background: var(--tab-line-active);
+  }
+  .ant-tabs-nav-more {
+    display: none;
+  }
+  .ant-tabs-content-holder {
+    overflow: hidden;
+    padding-bottom: 8px;
+  }
+  @media (max-width: 989.98px) {
+    .ant-tabs-nav {
+      .ant-tabs-nav-wrap {
+        .ant-tabs-nav-list {
+          .ant-tabs-tab {
+            margin: 0 20px;
+            .ant-tabs-tab-btn {
+              font-size: 16px;
+              min-width: 50px;
+              svg {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 989.98px) {
+    .ant-tabs-nav {
+      .ant-tabs-nav-wrap {
+        .ant-tabs-nav-list {
+          .ant-tabs-tab {
+            margin: 0 20px;
+            .ant-tabs-tab-btn {
+              font-size: 16px;
+              min-width: 50px;
+              svg {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 767.98px) {
+    .ant-tabs-nav {
+      .ant-tabs-nav-wrap {
+        border-radius: 5px;
+        .ant-tabs-nav-list {
+          .ant-tabs-tab {
+            margin: 0 10px;
+            .ant-tabs-tab-btn {
+              font-size: 14px;
+              svg {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
