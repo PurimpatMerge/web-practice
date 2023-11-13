@@ -12,7 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - run: |
-          git checkout dev
           sudo chmod +x vault.sh
           ./vault.sh ${{ secrets.VAULT_URL }}/cybergame-dev/data/frontend/.env env ${{ secrets.VAULT_TOKEN }}
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
