@@ -17,7 +17,7 @@ spec:
         app: practice-web-dev
     spec:
       imagePullSecrets:
-        - name: practice-web-registrykey
+        - name: practice-registrykey
       containers:
         - name: practice-web-dev
           image: cyberrich/web-practice-dev:dev
